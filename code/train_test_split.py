@@ -18,3 +18,10 @@ print(images.shape)
 # the data for training and the remaining 25% for testing
 split = train_test_split(df, images, test_size=0.25, random_state=42)
 (trainAttrX, testAttrX, trainImagesX, testImagesX) = split
+#assign y axis for train and test dataset
+trainY = trainAttrX["Totalreactionforce"] 
+testY = testAttrX["Totalreactionforce"] 
+df2 = pd.DataFrame(testY)
+pd.set_option('display.max_rows', None, 'display.max_columns', None)
+df2.sort_index(axis = 0)
+# print(df2)
