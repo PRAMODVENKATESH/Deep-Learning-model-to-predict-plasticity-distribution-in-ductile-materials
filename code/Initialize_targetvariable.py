@@ -1,4 +1,4 @@
-import 
+import
 def Total_reaction_force_data(inputPath1):
 # initialize the list of column names in the CSV file and then
 # load it using Pandas
