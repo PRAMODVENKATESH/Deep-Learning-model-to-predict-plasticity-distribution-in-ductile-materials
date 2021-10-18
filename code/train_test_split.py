@@ -1,5 +1,6 @@
 #If the code is executed as a .py file, use the following command line
-from 
+from Initialize_targetvariable import Total_reaction_force_data
+from read_imagedataset import Plasticity_distribution
 #construct the path to the input .txt file that contains information
 # on each TRF value in the dataset and then load the dataset
 print("[INFO] Total_reaction_force_data...")
