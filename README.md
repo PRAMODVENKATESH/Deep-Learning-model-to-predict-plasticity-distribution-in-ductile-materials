@@ -8,4 +8,4 @@ predicting the total reaction force associated to each test image dataset with v
 The model also captures accurately the trend in softening of ductile matrix with progressive growth of the void.
 
 ![Capture](https://user-images.githubusercontent.com/78496229/139350011-c6c976f1-2ace-46af-acd5-f95a9e9bfa8e.PNG)
-![](images/MIcroscopic strngth reduction.PNG)
+![](Images/MIcroscopic strngth reduction.PNG)
